@@ -2,25 +2,26 @@ import React from 'react';
 
 function TryWhitepaceToday() {
   return (
-    <div className="bg-[#0B2F6A] min-h-screen text-white text-center">
-      <section className="max-w-7xl mx-auto px-6 sm:px-10 py-16">
-        <h2 className="text-3xl font-bold mb-2">
-          Try Whitepace
-          <br />
-          today
-        </h2>
-        <p className="text-sm sm:text-base max-w-md mx-auto mb-8 text-[#D1D5DB]">
-          Create your free account and start managing projects effortlessly.
-        </p>
-        <button className="bg-[#3B82F6] text-white font-semibold rounded-md px-6 py-2 mb-8 hover:bg-[#2563eb] transition">
-          Get Started
-        </button>
-        <div className="flex justify-center space-x-6 text-white text-2xl">
-          <i className="fab fa-apple cursor-pointer hover:text-[#FFD966] transition"></i>
-          <i className="fab fa-windows cursor-pointer hover:text-[#FFD966] transition"></i>
-          <i className="fab fa-android cursor-pointer hover:text-[#FFD966] transition"></i>
-        </div>
-      </section>
+    <div className="bg-[#053a7a] text-white flex flex-col items-center justify-center min-h-screen px-4">
+      <h1 className="font-extrabold text-5xl text-center leading-tight max-w-md">
+        Try Whitepace<br />today
+      </h1>
+      <p className="mt-4 text-center text-lg max-w-xs">
+        Get started for free.<br />
+        Add your whole team as your needs grow.
+      </p>
+      <button
+        className="mt-8 bg-[#4a90e2] rounded-lg px-8 py-3 text-white text-base font-normal flex items-center space-x-2 hover:bg-[#3a78d1] transition"
+      >
+        <span>Try Taskey free</span>
+        <i className="fas fa-arrow-right"></i>
+      </button>
+      <p className="mt-8 text-center text-lg max-w-xs">On a big team? Contact sales</p>
+      <div className="mt-6 flex space-x-12">
+        <i className="fab fa-apple fa-3x" aria-hidden="true" title="Apple logo"></i>
+        <i className="fab fa-windows fa-3x" aria-hidden="true" title="Windows logo"></i>
+        <i className="fab fa-android fa-3x" aria-hidden="true" title="Android logo"></i>
+      </div>
     </div>
   );
 }

@@ -2,35 +2,27 @@ import React from 'react';
 
 function Sponsors() {
   return (
-    <div className="bg-white min-h-screen text-center flex justify-center items-center gap-12 py-12">
-      <img
-        alt="Apple logo black on white background"
-        className="h-6"
-        height="24"
-        src="https://storage.googleapis.com/a1aa/image/969d8940-5d58-45f0-9685-8bc101f8e196.jpg"
-        width="80"
-      />
-      <img
-        alt="Microsoft logo black on white background"
-        className="h-6"
-        height="24"
-        src="https://storage.googleapis.com/a1aa/image/de96b3af-d04c-40d6-2f24-7dcf53b72486.jpg"
-        width="100"
-      />
-      <img
-        alt="Slack logo black on white background"
-        className="h-6"
-        height="24"
-        src="https://storage.googleapis.com/a1aa/image/85023d94-26bf-4c02-94d3-2e42c21b2c54.jpg"
-        width="100"
-      />
-      <img
-        alt="Google logo black on white background"
-        className="h-6"
-        height="24"
-        src="https://storage.googleapis.com/a1aa/image/8bf014e4-4efb-4a9a-f9b3-13c3a6239148.jpg"
-        width="100"
-      />
+    <div className="bg-white flex flex-col items-center justify-center min-h-screen p-6">
+      <h1
+        className="relative text-4xl font-extrabold text-gray-900 font-['Inter'] mb-28"
+        style={{ lineHeight: 1 }}
+      >
+        Our sponsors
+        <span
+          aria-hidden="true"
+          className="absolute left-1/2 -translate-x-1/2 w-[160px] h-3 bg-yellow-300 rounded-sm"
+          style={{ bottom: -8, filter: 'drop-shadow(0 0 2px rgb(252 211 77))' }}
+        ></span>
+      </h1>
+      <div className="flex justify-center w-full max-w-7xl px-6 sm:px-12">
+        <img
+          alt="Sponsor logos combined in a single image including Microsoft, Slack, and Google logos"
+          className="object-contain w-full max-w-[900px] h-auto"
+          src="https://i.postimg.cc/qvT1F0w2/sponsors.png"
+          width={900}
+          height="auto"
+        />
+      </div>
     </div>
   );
 }

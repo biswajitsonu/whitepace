@@ -24,9 +24,11 @@ function Extension() {
         </button>
       </div>
       <div
-        className="md:w-auto bg-[#b9d7ff] mt-20"
-        style={{ width: '600px', height: '350px' }}
-      ></div>
+        className="w-full max-w-md md:w-auto bg-[#b9d7ff] mt-10 md:mt-20 mx-auto md:mx-0 rounded-md shadow-lg flex justify-center items-center"
+        style={{ height: '250px', maxWidth: '600px' }}
+      >
+        <div className="w-[600px] h-[350px] bg-[#8ab9ff] rounded-md"></div>
+      </div>
     </div>
   );
 }

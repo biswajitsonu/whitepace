@@ -7,7 +7,7 @@ import Extension from './components/Extension';
 import Customise from './components/Customise';
 import Pricing from './components/Pricing';
 import YourWorkEverywhere from './components/YourWorkEverywhere';
-import DataSecurity from './components/DataSecurity';
+import YourData from './components/YourData';
 import Sponsors from './components/Sponsors';
 import WorkWithApps from './components/WorkWithApps';
 import Testimonials from './components/Testimonials';
@@ -21,11 +21,16 @@ function App() {
       <HeroSection />
       <ProjectManagement />
       {/* Removed WorkTogether component to avoid duplicate "work together" sections */}
-      <Extension />
-      <Customise />
+      <div className="mb-20">
+        <Extension />
+      </div>
+      <div className="mt-20">
+        <Customise />
+      </div>
       <Pricing />
       <YourWorkEverywhere />
-      <DataSecurity />
+      <YourData />
+      <div className="mb-10"></div>
       <Sponsors />
       <WorkWithApps />
       <Testimonials />

@@ -23,14 +23,14 @@ function HeroSection() {
       {/* Background pattern image behind text */}
       <img
         alt="Decorative wave lines in light blue behind text"
-        className="absolute top-0 left-0 w-7/12 h-full pointer-events-none select-none opacity-15 -z-10"
+        className="absolute top-0 left-0 w-7/12 h-full pointer-events-none select-none opacity-15 -z-10 hidden sm:block"
         height="300"
         src="https://storage.googleapis.com/a1aa/image/44745f47-584e-4798-9099-bbe9e2e88b10.jpg"
         width="600"
         style={{ opacity: 0.15, zIndex: -1 }}
       />
       {/* Right side blank image with primary 100 bg */}
-      <div className="md:w-5/12 h-[350px] min-h-[350px] bg-[#c2dbfc] relative z-10 border border-red-500"></div>
+      <div className="w-full md:w-5/12 h-48 md:h-[350px] bg-[#c2dbfc] relative z-10 border border-red-500 max-w-md mx-auto md:mx-0"></div>
     </section>
   );
 }

@@ -2,29 +2,34 @@ import React from 'react';
 
 function Customise() {
   return (
-    <section className="max-w-7xl mx-auto px-6 sm:px-10 py-16 flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-20 bg-white text-[#0B2F6A]">
-      <div className="md:w-1/2">
-        <img
-          alt="Illustration showing customization options with sliders and settings"
-          className="rounded-lg shadow-lg"
-          height="280"
-          src="https://storage.googleapis.com/a1aa/image/4a9acedb-703f-49fc-9847-740536972802.jpg"
-          width="480"
-        />
-      </div>
-      <div className="md:w-1/2 space-y-6">
-        <h2 className="text-2xl sm:text-3xl font-bold max-w-md">
-          Customise it to{' '}
-          <span className="font-extrabold">your needs</span>
-        </h2>
-        <p className="text-sm sm:text-base max-w-md text-[#374151]">
-          Tailor Whitepace to fit your workflow with flexible settings and personalized features.
+    <main className="w-full max-w-full mx-auto flex flex-col md:flex-row items-center md:items-start px-6 md:px-0 min-h-[350px] bg-white text-gray-900">
+      <div
+        className="md:w-auto bg-[#c4ddff] mt-20 ml-6 md:ml-8"
+        style={{ width: '600px', height: '350px' }}
+      ></div>
+      <div className="w-full md:w-1/2 mt-16 md:mt-0 md:pl-32 flex flex-col justify-start">
+        <h1 className="text-5xl font-extrabold leading-tight max-w-md mb-6">
+          Customise it to <br />
+          <span className="relative inline-block">
+            your needs
+            <span
+              aria-hidden="true"
+              className="absolute left-0 w-full h-3 bg-[#ffe59a] -skew-x-12"
+              style={{ bottom: '-8px', clipPath: 'polygon(0 0, 100% 10%, 100% 100%, 0% 100%)' }}
+            ></span>
+          </span>
+        </h1>
+        <p className="text-gray-700 mt-8 mb-8 text-base leading-relaxed max-w-xl">
+          Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.
         </p>
-        <button className="bg-[#3B82F6] text-white font-semibold rounded-md px-6 py-2 w-max hover:bg-[#2563eb] transition">
-          Customize
+        <button
+          type="button"
+          className="mt-12 bg-[#4a90e2] text-white text-base font-medium rounded-md px-6 py-3 flex items-center gap-2 hover:bg-[#3a78d1] transition-colors w-max"
+        >
+          Let’s Go <i className="fas fa-arrow-right"></i>
         </button>
       </div>
-    </section>
+    </main>
   );
 }
 
