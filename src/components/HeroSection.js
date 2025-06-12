@@ -2,9 +2,9 @@ import React from 'react';
 
 function HeroSection() {
   return (
-    <section className="w-full min-h-screen bg-[#053a75] flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-0 px-6 py-20 relative overflow-hidden">
+    <section className="w-full min-h-screen bg-[#053a75] flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-0 px-6 py-20 relative overflow-hidden" style={{ backgroundImage: 'url(https://i.postimg.cc/kMxNqzwn/Elementt.png)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover' }}>
       <div className="md:w-7/12 relative text-white z-10">
-        <h1 className="font-extrabold text-5xl sm:text-6xl leading-tight max-w-lg mb-6 relative z-10">
+        <h1 className="font-extrabold text-5xl sm:text-6xl leading-tight max-w-4xl mb-6 relative z-10">
           Get More Done with
           <br />
           whitepace
@@ -29,8 +29,17 @@ function HeroSection() {
         width="600"
         style={{ opacity: 0.15, zIndex: -1 }}
       />
-      {/* Right side blank image with primary 100 bg */}
-      <div className="w-full md:w-5/12 h-48 md:h-[350px] bg-[#c2dbfc] relative z-10 border border-red-500 max-w-md mx-auto md:mx-0"></div>
+      {/* Right side blank image with primary 100 bg */} 
+      <div
+        className="w-full md:w-5/12 h-48 md:h-[350px] relative z-10 max-w-md mx-auto md:mx-0"
+        style={{
+          backgroundImage: 'url(https://i.postimg.cc/fLw3ZzKX/h.png)',
+          backgroundSize: '120% auto',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          border: 'none',
+        }}
+      ></div>
     </section>
   );
 }
