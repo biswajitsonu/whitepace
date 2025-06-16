@@ -47,13 +47,14 @@ function ProjectManagement() {
           </svg>
         </button>
       </div>
-      {/* Right top section */}
+      {/* Right top section with replaced image */}
       <div className="md:col-span-7 flex justify-end">
-        <div
-          aria-label="Primary color rectangular placeholder representing a screenshot or image"
-          className="rounded bg-blue-100"
+        <img
+          alt="Project Management Illustration"
+          className="rounded"
+          src="https://i.postimg.cc/vmt9BQxw/Chatgpt1.png"
           style={{ width: '600px', height: '400px' }}
-        ></div>
+        />
       </div>
       {/* Left bottom section replaced with image */}
       <div className="md:col-span-5 flex justify-center md:justify-start relative">
