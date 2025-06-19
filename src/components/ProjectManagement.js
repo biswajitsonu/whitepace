@@ -3,9 +3,9 @@ import WorkTogether from './WorkTogether';
 
 function ProjectManagement() {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-16 md:py-24 grid grid-cols-1 md:grid-cols-12 gap-12 items-center relative">
+<div className="max-w-[90rem] mx-auto px-12 py-28 md:py-32 grid grid-cols-1 md:grid-cols-12 gap-y-16 gap-x-24 items-center relative">
       {/* Left top section with background pattern */}
-      <div
+<div
         className="md:col-span-5 relative"
         style={{
           backgroundImage: "url('https://i.postimg.cc/SRdDPhRR/BACKGROUND.png')",
@@ -14,7 +14,7 @@ function ProjectManagement() {
           backgroundSize: 'contain',
         }}
       >
-        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 relative z-10 max-w-[320px] leading-tight">
+<h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 relative z-10 max-w-[320px] leading-snug mb-8 tracking-tight">
           Project
           <br />
           <span className="relative inline-block">
@@ -25,12 +25,12 @@ function ProjectManagement() {
             Management
           </span>
         </h1>
-        <p className="text-gray-800 text-sm md:text-base max-w-[480px] mt-4 leading-relaxed">
+        <p className="text-gray-800 text-sm md:text-base max-w-[440px] leading-relaxed mb-8 tracking-wide">
           Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.
         </p>
-        <button
+<button
           type="button"
-          className="mt-8 bg-blue-500 hover:bg-blue-600 text-white text-sm md:text-base font-medium rounded px-6 py-3 flex items-center gap-2 max-w-[160px]"
+          className="bg-blue-500 hover:bg-blue-600 text-white text-sm md:text-base font-medium rounded px-10 py-5 flex items-center gap-4 max-w-[200px]"
         >
           Get Started
           <svg
@@ -48,27 +48,27 @@ function ProjectManagement() {
         </button>
       </div>
       {/* Right top section with replaced image */}
-      <div className="md:col-span-7 flex justify-end">
+<div className="md:col-span-7 flex justify-end">
         <img
           alt="Project Management Illustration"
           className="rounded"
           src="https://i.postimg.cc/vmt9BQxw/Chatgpt1.png"
-          style={{ width: '600px', height: '400px' }}
+          style={{ width: '680px', height: '460px' }}
         />
       </div>
       {/* Left bottom section replaced with image */}
-      <div className="md:col-span-5 flex justify-center md:justify-start relative">
+<div className="md:col-span-5 flex justify-center md:justify-start relative">
         <img
           alt="Work Together Image showing colorful circles and collaboration concept"
-          className="max-w-[400px] rounded"
-          height="400"
+          className="max-w-[480px] rounded"
+          height="480"
           src="https://i.postimg.cc/7YW0B69d/Work-Together-Image.png"
-          width="400"
+          width="480"
         />
       </div>
       {/* Right bottom section with full "work together" content on right side of image */}
-      <div className="md:col-span-7 max-w-md md:max-w-none">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight max-w-[320px] whitespace-nowrap">
+<div className="md:col-span-7 max-w-md md:max-w-none">
+<h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-snug max-w-[320px] whitespace-nowrap mb-8 tracking-tight">
           Work{' '}
           <span className="relative inline-block">
             <span
@@ -78,12 +78,12 @@ function ProjectManagement() {
             together
           </span>
         </h2>
-        <p className="text-gray-800 text-sm md:text-base mt-4 max-w-[480px] leading-relaxed">
+        <p className="text-gray-800 text-sm md:text-base max-w-[440px] leading-relaxed mb-8 tracking-wide">
           With whitepace, share your notes with your colleagues and collaborate on them. You can also publish a note to the internet and share the URL with others.
         </p>
-        <button
+<button
           type="button"
-          className="mt-8 bg-blue-500 hover:bg-blue-600 text-white text-sm md:text-base font-medium rounded px-6 py-3 flex items-center gap-2 max-w-[160px]"
+          className="bg-blue-500 hover:bg-blue-600 text-white text-sm md:text-base font-medium rounded px-10 py-5 flex items-center gap-4 max-w-[200px]"
         >
           Try it now
           <svg
